@@ -1,4 +1,4 @@
-# terraform-aws-cloudwatch-log
+# terraform-aws-cloudwatch-log-group
 
 Creates simple single [aws_cloudwatch_log_group](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_log_group)
 
