@@ -1,6 +1,6 @@
 # terraform-aws-cloudwatch-log-group
 
-![Checkov](https://img.shields.io/github/workflow/status/mhmdio/terraform-aws-cloudwatch-log-group/Checkov?label=Checkov)
+[![Checkov](https://img.shields.io/github/workflow/status/mhmdio/terraform-aws-cloudwatch-log-group/Checkov?label=Checkov)](https://github.com/mhmdio/terraform-aws-cloudwatch-log-group/actions)
 
 Creates simple single `aws_cloudwatch_log_group`
 
