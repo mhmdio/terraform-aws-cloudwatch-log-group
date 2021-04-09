@@ -1,5 +1,11 @@
 # Changelog
 
+## V2.1.0 - 9 Apr 2021
+
+- add terraform checks in github action
+- update README
+- refactor
+
 ## V2.0.1 - 9 Apr 2021
 
 - add `checkov` badge
