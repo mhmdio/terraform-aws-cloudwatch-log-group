@@ -1,5 +1,9 @@
 # Changelog
 
+## V2.0.1 - 9 Apr 2021
+
+- add `checkov` badge
+
 ## V2.0.0 - 9 Apr 2021
 
 - add CheckOV scan
