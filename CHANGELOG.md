@@ -1,5 +1,9 @@
 # Changelog
 
+## V2.3.0 - 10 Apr 2021
+
+- add cost estimate ( out of pipeline for now)
+
 ## V2.2.0 - 10 Apr 2021
 
 - update README

@@ -23,3 +23,24 @@ module "test" {
   tags              = {}     # tags - (optional) is a type of map of string
 }
 ```
+
+## Monthly Cost Estimate
+
+```bash
+infracost breakdown --sync-usage-file --usage-file infracost-usage.yml --path .
+```
+
+```bash
+✔ Calculating monthly cost estimate
+
+Project: .
+
+ Name                                       Quantity  Unit  Monthly Cost 
+                                                                         
+ module.test.aws_cloudwatch_log_group.this                               
+ ├─ Data ingested                                  1  GB           $0.63 
+ ├─ Archival Storage                               1  GB           $0.03 
+ └─ Insights queries data scanned                  1  GB           $0.01 
+                                                                         
+ PROJECT TOTAL                                                     $0.67 
+```
