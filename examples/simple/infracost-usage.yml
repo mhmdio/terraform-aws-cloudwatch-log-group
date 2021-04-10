@@ -1,0 +1,6 @@
+version: 0.1
+resource_usage:
+  module.test.aws_cloudwatch_log_group.this:
+    monthly_data_ingested_gb: 1
+    monthly_data_scanned_gb: 1
+    storage_gb: 1
