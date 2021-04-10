@@ -32,8 +32,8 @@ No modules.
 
 | Name                                                                                      | Description                            | Type          | Default | Required |
 | ----------------------------------------------------------------------------------------- | -------------------------------------- | ------------- | ------- | :------: |
-| <a name="input_kms_key_id"></a> [kms\_key\_id](#input\_kms\_key\_id)                      | CloudWatch Group Log KMS key id        | `any`         | `null`  |    no    |
-| <a name="input_name"></a> [name](#input\_name)                                            | CloudWatch Group Log Name              | `any`         | n/a     |   yes    |
+| <a name="input_kms_key_id"></a> [kms\_key\_id](#input\_kms\_key\_id)                      | CloudWatch Group Log KMS key id        | `string`      | `null`  |    no    |
+| <a name="input_name"></a> [name](#input\_name)                                            | CloudWatch Group Log Name              | `string`      | n/a     |   yes    |
 | <a name="input_retention_in_days"></a> [retention\_in\_days](#input\_retention\_in\_days) | CloudWatch Group Log retention in days | `number`      | `7`     |    no    |
 | <a name="input_tags"></a> [tags](#input\_tags)                                            | CloudWatch Group Log tags              | `map(string)` | `{}`    |    no    |
 
