@@ -1,5 +1,10 @@
 # Changelog
 
+## V2.4.0 - 11 Apr 2021
+
+- 👌 IMPROVE: add map input
+- 📦 NEW: add localstack
+
 ## V2.3.0 - 10 Apr 2021
 
 - add cost estimate ( out of pipeline for now)
