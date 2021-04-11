@@ -8,6 +8,37 @@ module "test" {
 
 }
 
+locals {
+  groups = {
+    group1 = {
+      name              = "group1"
+      retention_in_days = 90
+      kms_key_id        = null
+      tags = {
+        name      = "group1"
+        terraform = "yes"
+      }
+    },
+    group2 = {
+      name              = "group2"
+      retention_in_days = 30
+      kms_key_id        = null
+      tags              = {}
+    }
+  }
+
+}
+module "groups" {
+  source   = "../../"
+  for_each = local.groups
+
+  name              = each.value.name
+  retention_in_days = each.value.retention_in_days
+  kms_key_id        = each.value.kms_key_id
+  tags              = each.value.tags
+
+
+}
 provider "aws" {
   region = "eu-central-1"
 
